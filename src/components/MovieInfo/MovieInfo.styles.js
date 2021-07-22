@@ -6,9 +6,9 @@ export const Wrapper = styled.div`
   background: ${({ backdrop}) => 
         backdrop ? `url(${IMAGE_BASE_URL}${BACKDROP_SIZE}${backdrop})`
                 : '#000'
-    } cover center center no-repeat;
-  //background-size: cover;
-  //background-position: center;
+    };
+  background-size: cover;
+  background-position: center;
   padding: 40px 20px;
   animation: animateMovieInfo 1s;
   
